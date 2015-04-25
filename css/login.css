@@ -1,0 +1,11 @@
+body{
+	background:url("http://static.fjcdn.com/comments/Cool+background+for+anyone+who+wants+_e21402f928ca4a78f4be6cbfa6782c6e.jpg");
+	background-size: 1300px;
+}
+
+.container {
+	margin-top: 20px;
+	background-color: white;
+	border-color: black;
+	text-align: center;
+}

@@ -1,0 +1,48 @@
+@import url("http://fonts.googleapis.com/css?family=Chango");
+body{
+	background:url("http://www.hdwallpaperspulse.com/wp-content/uploads/2013/08/17/cool-background-wallpapers.jpg");
+	background-size: 1000px;
+	text-align: left;
+
+}
+.navbar {
+	border-color: pink;
+	height: 73px;
+	background-size: 200px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-align: center;
+
+
+
+}
+a:hover
+{
+background-color: lightblue;
+color: black;
+}
+
+a{
+	color: black;
+}
+
+.What {
+	font-family: 'Pacifico';
+	background-color: white;
+	margin-top: 100px;
+	text-align: center;
+	border-style: double;
+	border-color: black;
+	border-radius: 15px;
+}    
+
+
+.Hello {
+	font-family: 'Pacifico';
+	background-color: white;
+	margin-top: 200px;
+	text-align: center;
+	border-style: double;
+	border-color: black;
+	border-radius: 15px;
+}
