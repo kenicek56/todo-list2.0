@@ -5,6 +5,11 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+<div id="title" class="Todo-List col-x-12">
+	<h1>
+		Todo-List
+	</h1>
+</div>
   <div class="wrap">
 	<div class="task-list">
 		<ul>
@@ -32,6 +37,14 @@
   <input type="text" name="new-task" placeholder="Add new item..."/>
   </form>
   </div>
+  <div id="nav">
+  <ul class="nav-menu clearfix unstyled">
+         <li><a href="index.php" class="three-d">
+      Logout
+      <span class="three-d-box"><span class="front">Logout</span><span class="back">Logout</span></span>
+         </a></li>
+         </ul>
+</div>
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script>
@@ -51,14 +64,14 @@
 		});
 	}
 
-	$('.delete-button').click(function(){
-		var current_element = $(this);
+	    $(".task-list").on("click", ".delete-button", function(){
+	    var current_element = $(this);
 		var task_id = $(this).attr('id');
 		$.post('includes/delete-task.php', {id: task_id}, function(){
 		current_element.parent().fadeOut("fast", function(){
-         $(this).remove();
-		});
+        $(this).remove();	
+	   }); 
 	});
-});	
+});
 </script>
 </html>

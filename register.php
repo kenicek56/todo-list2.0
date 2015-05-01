@@ -8,4 +8,6 @@
 	//looks for foot.php
 	require_once(__DIR__ . "/view/footer.php");
 
+	
+
 ?>
