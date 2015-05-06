@@ -33,9 +33,9 @@
            ?>
 		</ul>
 	</div>
-  <form class="add-new-task" autocomplete="off">
+  <form class="add-new-task" autocomplete="off"><center>
   <input type="text" name="new-task" placeholder="Add new item..."/>
-  </form>
+  </center></form>
   </div>
   <div id="nav">
   <ul class="nav-menu clearfix unstyled">

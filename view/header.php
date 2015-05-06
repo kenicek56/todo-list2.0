@@ -15,7 +15,7 @@
       <span class="three-d-box"><span class="front">Login</span><span class="back">Login</span></span>
          </a></li>
          <li><a href="register.php" class="three-d">
-      Services
+      Register
       <span class="three-d-box"><span class="front">Register</span><span class="back">Register</span></span>
     </a></li>
     <li><a href="index.php" class="three-d">

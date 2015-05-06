@@ -1,8 +1,8 @@
 body{
-	background:url("http://cs409525.vk.me/v409525967/6039/jupXxnn1OfE.jpg");
-  background-size: 600px;
+	background:url("http://www.hdwallpapersn.com/wp-content/uploads/2015/04/purple_beach_sunset_wallpapers_6.jpg");
+  background-size: 100%;
   background-position: center;
-  background-color:;
+ 
 }
 
 .nav-menu {
@@ -90,7 +90,7 @@ body{
 .nav-menu li .active .back,
 .nav-menu li a:hover .front,
 .nav-menu li a:hover .back {
-  background-color: #51938f;
+  background-color: #FFB6C1;
   background-size: 5px 5px;
   background-position: 0 0, 30px 30px;
   background-image: -*-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
@@ -114,7 +114,7 @@ body{
 ::-webkit-input-placeholder { color: #ccc }
 #loginWrap {
     opacity: 0.9;
-	margin-top: 200px;
+	margin-top: 150px;
     margin-left: 600px;
     width: 300px;
     height: 310px;
